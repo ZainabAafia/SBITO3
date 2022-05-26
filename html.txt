@@ -1,0 +1,102 @@
+<h2 style="background-color:DodgerBlue;">Payments /Fund Transfer</h2>
+
+<h3 style="background-color:rgb(200, 217, 233);">Within SBI-Own Account</h3>
+
+<h4>Select the account from which you want to transfer Funds</h4>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+    
+
+
+    
+<table>
+  <tr>
+
+    <th>Account Number</th>
+    <th>Account Type</th>
+    <th>SBI Branch</th>
+    <th>Balance</th>
+  </tr>
+  <tr>
+    <td><input type="radio" >62476685208</td>
+    <td>Savings</td>
+ 
+    <td>Belapur</td>
+    <td>50000</td>
+  </tr>
+
+  
+</table>
+
+         
+<p>
+    
+</p>
+
+<form>
+  <label for="amount">Amount:</label>
+  <input type="number" id="fname" name="fname"><br><br>
+  
+</form>
+<form>
+    <label for="Payment Purpose">Select Purpose:</label>
+    <select name="purpose" id="purpose">
+      <option value="Loan Repayment">Loan Repayment</option>
+      <option value="Gift">Gift</option>
+      <option value="Medical Expense">Medical Expense</option>
+      <option value="Others">Others"</option>
+    </select>
+    <br><br>
+
+    <h4>Select the account into which the amount should be credited</h4>
+    <style>
+        
+        </style>
+        <table>
+            <tr>
+          
+              <th>Account Number</th>
+              <th>Account Type</th>
+              <th>SBI Branch</th>
+              
+            </tr>
+            <tr>
+            <td><label><input type="radio"  name="optradio" /> 62476685208</label></td>
+              
+              <td>Savings</td>
+           
+              <td>Belapur</td>
+              
+              
+            </tr>
+            <tr>
+                <td><label><input type="radio"  name="optradio" /> 09491382466</label></td>  
+                <td>Savings</td>
+             
+                <td>Belapur</td>
+                
+                
+              </tr>
+              
+          
+            
+          </table>
+          
+    
+    
+  </form>
+
+
+  <p><button type="button" >Submit</button> <button type="button" >Cancel</button>
+  </p>
+  
+  
+
+</body>
+</html>
+
